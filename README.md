@@ -63,18 +63,18 @@ The recursion then **unwinds** to compute the Fibonacci number.
 Here’s a simple implementation of the Fibonacci series using recursion in **JavaScript**:
 
 ```javascript
-function fibonacci(n) {
+function fibo(n) {
     if (n === 0) return 0; 
     if (n === 1) return 1; 
-    return fibonacci(n - 1) + fibonacci(n - 2); 
+    return fibo(n - 1) + fibo(n - 2); 
 }
 
-function printFibonacciSeries(n) {
+function printFibo(n) {
     console.log("Fibonacci Series up to", n, "terms:");
     for (let i = 0; i < n; i++) {
-        console.log(fibonacci(i));
+        console.log(fibo(i));
     }
 }
 
 const n = parseInt(prompt("Enter the number of terms: "), 10);
-printFibonacciSeries(n);
+printFibo(n);
