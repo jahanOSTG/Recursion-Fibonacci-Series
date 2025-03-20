@@ -42,7 +42,7 @@ The recursion then **unwinds** to compute the Fibonacci number.
 
 # Algorithm for Fibonacci Series using Recursion
 
-### Step-by-Step Explanation
+### Explanation:
 
 1. **Start**
 2. **Define a function `Fibonacci(n)`**:
@@ -56,9 +56,9 @@ The recursion then **unwinds** to compute the Fibonacci number.
 ---
 ## Fibonacci Visualization:
 <img src="fibo.png" width="500" alt="Fibonacci">
-![Fibonacci](fibo.png)
 
-### 📌 Example Code
+
+###  Example Code
 
 Here’s a simple implementation of the Fibonacci series using recursion in **JavaScript**:
 
