@@ -54,6 +54,9 @@ The recursion then **unwinds** to compute the Fibonacci number.
 5. **End**
 
 ---
+## Fibonacci Visualization:
+<img src="fibo.png" width="500" alt="Fibonacci">
+![Fibonacci](fibo.png)
 
 ### 📌 Example Code
 
